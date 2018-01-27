@@ -16,6 +16,14 @@ How to use
 3. Run sfanalysis.py to show engine details, a textual display of the board position, and the engine's best move followed by best response(ponder).
 
 
+Requirements
+---------------
+
+- Must be running a Red Hat derived distro using yum package manager. One could edit installscript.sh to use apt-get once they find the names for the packages installed.
+
+- If you want to an engine other than Stockfish, this python script only supports UCI protocol engines.
+
+
 Changelog
 ---------------
 
